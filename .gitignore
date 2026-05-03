@@ -1,0 +1,11 @@
+# Ignore the training CSV (sensitive or large data file)
+/train.csv
+
+# Ignore a data directory at the repo root
+/data/
+
+# Optional: ignore all CSVs in data folders
+data/**/*.csv
+ 
+# Ignore environment file with secrets/paths
+.env
